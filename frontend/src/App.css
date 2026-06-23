@@ -1,0 +1,99 @@
+.home-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.farm-profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.farm-profile-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-weight: 600;
+}
+
+.farm-profile-form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.75rem;
+}
+
+.checkbox-label {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: normal !important;
+}
+
+.checkbox-label.indent {
+  margin-left: 1.5rem;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.error {
+  color: #b00020;
+}
+
+.results-list section {
+  margin-bottom: 2rem;
+}
+
+.grant-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.grant-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status-badge--matched {
+  background: #d4f4dd;
+  color: #1a7a3c;
+}
+
+.status-badge--partial {
+  background: #fff3cd;
+  color: #8a6500;
+}
+
+.status-badge--not_matched {
+  background: #fde2e2;
+  color: #a32020;
+}
+
+.grant-card__windows {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.check-pass {
+  color: #1a7a3c;
+}
+
+.check-fail {
+  color: #a32020;
+}

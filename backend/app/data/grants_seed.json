@@ -1,0 +1,127 @@
+[
+  {
+    "id": "sfi-2026",
+    "name": "Sustainable Farming Incentive 2026 (SFI26)",
+    "administering_body": "Defra / Rural Payments Agency",
+    "scheme_type": "revenue",
+    "summary": "Annual payments for adopting sustainable farming practices across arable, livestock and mixed farms.",
+    "description": "SFI26 pays farmers for actions that support food production alongside environmental outcomes, such as soil health, hedgerow management and integrated pest management. There are two application windows: Window 1 opens for small farms (up to 50 hectares) or farms without an existing Environmental Land Management (ELM) revenue agreement; Window 2 opens later for all eligible farms.",
+    "funding_amount_description": "Payment rates vary by action, paid per hectare per year; see the full SFI26 action list on GOV.UK.",
+    "eligibility": {
+      "min_land_size_ha": 3,
+      "max_land_size_ha": null,
+      "eligible_farm_types": ["any"],
+      "eligible_regions": ["england"],
+      "required_activities": [],
+      "requires_sbi": true,
+      "requires_no_existing_elm_agreement": false,
+      "requires_environmentally_significant_site": false,
+      "excluded_farm_types": []
+    },
+    "application_windows": [
+      {
+        "opens": "2026-06-01",
+        "closes": null,
+        "label": "Window 1: small farms (up to 50 ha) or no existing ELM revenue agreement"
+      },
+      {
+        "opens": "2026-09-01",
+        "closes": null,
+        "label": "Window 2: all eligible farms"
+      }
+    ],
+    "application_url": "https://www.gov.uk/government/publications/sustainable-farming-incentive-2026-sfi26",
+    "last_verified_date": "2026-06-23",
+    "special_rule": "sfi_window_1_or_2"
+  },
+  {
+    "id": "countryside-stewardship-higher-tier",
+    "name": "Countryside Stewardship Higher Tier",
+    "administering_body": "Defra / Rural Payments Agency",
+    "scheme_type": "higher_tier_agreement",
+    "summary": "Long-term agreements for farms with environmentally significant sites such as SSSIs, woodland, historic features or common land.",
+    "description": "Higher Tier supports the most environmentally significant sites and challenging habitats, including Sites of Special Scientific Interest (SSSIs), woodland, archaeological and historic features, and common land. Budget for 2026/27 (1 April 2026 to 31 March 2027) is £50 million.",
+    "funding_amount_description": "Payment rates depend on the agreed management actions and site features; agreements are agreed individually with a Natural England adviser.",
+    "eligibility": {
+      "min_land_size_ha": null,
+      "max_land_size_ha": null,
+      "eligible_farm_types": ["any"],
+      "eligible_regions": ["england"],
+      "required_activities": [],
+      "requires_sbi": true,
+      "requires_no_existing_elm_agreement": false,
+      "requires_environmentally_significant_site": true,
+      "excluded_farm_types": []
+    },
+    "application_windows": [
+      {
+        "opens": "2026-04-01",
+        "closes": "2027-03-31",
+        "label": "2026/27 financial year"
+      }
+    ],
+    "application_url": "https://www.gov.uk/guidance/countryside-stewardship-higher-tier",
+    "last_verified_date": "2026-06-23",
+    "special_rule": null
+  },
+  {
+    "id": "countryside-stewardship-capital-grants",
+    "name": "Countryside Stewardship Capital Grants",
+    "administering_body": "Defra / Rural Payments Agency",
+    "scheme_type": "capital",
+    "summary": "Capital grants for one-off environmental improvements such as hedgerows, boundaries and water quality measures.",
+    "description": "Countryside Stewardship Capital Grants fund one-off capital items that deliver environmental improvements, including hedgerow restoration, boundary management and water quality protection. These grants reopen in July 2026 as part of a £225 million capital grants pot for 2026.",
+    "funding_amount_description": "Grants cover a fixed percentage of standard capital item costs; see the capital grants item list on GOV.UK for rates.",
+    "eligibility": {
+      "min_land_size_ha": null,
+      "max_land_size_ha": null,
+      "eligible_farm_types": ["any"],
+      "eligible_regions": ["england"],
+      "required_activities": ["hedgerow_management", "water_quality"],
+      "requires_sbi": true,
+      "requires_no_existing_elm_agreement": false,
+      "requires_environmentally_significant_site": false,
+      "excluded_farm_types": []
+    },
+    "application_windows": [
+      {
+        "opens": "2026-07-01",
+        "closes": null,
+        "label": "2026 Capital Grants reopening"
+      }
+    ],
+    "application_url": "https://www.gov.uk/guidance/countryside-stewardship-capital-grants",
+    "last_verified_date": "2026-06-23",
+    "special_rule": null
+  },
+  {
+    "id": "farming-equipment-technology-fund",
+    "name": "Farming Equipment and Technology Fund (FETF)",
+    "administering_body": "Defra / Rural Payments Agency",
+    "scheme_type": "capital",
+    "summary": "Capital grants for equipment, technology and productivity improvements, including slurry stores, robotics and solar.",
+    "description": "FETF, part of the wider Farming Investment Fund, provides grants towards the cost of equipment and technology that improves farm productivity, manages slurry and nutrients more effectively, and supports animal health and welfare.",
+    "funding_amount_description": "Grants typically cover a percentage of the cost of eligible items, up to a maximum grant value per application; see GOV.UK for current item lists and rates.",
+    "eligibility": {
+      "min_land_size_ha": null,
+      "max_land_size_ha": null,
+      "eligible_farm_types": ["any"],
+      "eligible_regions": ["england"],
+      "required_activities": ["equipment_technology", "slurry_management"],
+      "requires_sbi": true,
+      "requires_no_existing_elm_agreement": false,
+      "requires_environmentally_significant_site": false,
+      "excluded_farm_types": []
+    },
+    "application_windows": [
+      {
+        "opens": "2026-01-01",
+        "closes": null,
+        "label": "Rolling Farming Investment Fund application rounds"
+      }
+    ],
+    "application_url": "https://www.gov.uk/guidance/farming-investment-fund",
+    "last_verified_date": "2026-06-23",
+    "special_rule": null
+  }
+]
