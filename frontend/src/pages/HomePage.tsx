@@ -26,11 +26,14 @@ export function HomePage() {
 
   return (
     <main className="home-page">
-      <h1>UK Farm Grant Matcher</h1>
-      <p>
-        Tell us about your farm and we'll show you which UK government grants and schemes you may
-        be eligible for, and why.
-      </p>
+      <header className="page-header">
+        <span className="page-header__eyebrow">UK Farm Support</span>
+        <h1>Farm Grant Matcher</h1>
+        <p>
+          Tell us about your farm and we'll show you which UK government grants and schemes you
+          may be eligible for, and why.
+        </p>
+      </header>
       <FarmProfileForm onSubmit={handleSubmit} submitting={submitting} />
       {error && <p className="error">{error}</p>}
       {grants && results && <ResultsList grants={grants} results={results} />}
